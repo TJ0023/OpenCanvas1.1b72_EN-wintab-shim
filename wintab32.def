@@ -1,0 +1,22 @@
+LIBRARY wintab32
+EXPORTS
+    WTInfoA         @20
+    WTOpenA         @21
+    WTClose         @22
+    WTPacketsGet    @23
+    WTPacket        @24
+    WTEnable        @40
+    WTOverlap       @41
+    WTConfig        @60
+    WTGetA          @61
+    WTSetA          @62
+    WTExtGet        @63
+    WTExtSet        @64
+    WTSave          @65
+    WTRestore       @66
+    WTPacketsPeek   @80
+    WTDataGet       @81
+    WTDataPeek      @82
+    WTQueueSizeGet  @84
+    WTQueueSizeSet  @85
+    WTQueuePacketsEx
